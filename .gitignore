@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Datasets
+*.zip
+graduate-employment-survey-ntu-nus-sit-smu-suss-sutd.csv
