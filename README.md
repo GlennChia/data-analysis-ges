@@ -33,3 +33,22 @@ Start Jupyter notebook
 ```bash
 jupyter lab
 ```
+
+# 3. Useful Pandas commands
+
+Remove rows with nan values within a specified column
+
+```python
+df.dropna(subset = [target_column], inplace=True)
+```
+
+Replace rows with nan values with a specified value within a specified column
+
+```python
+df[target_column].fillna(value, inplace=True)
+```
+
+# 4. Jupyter help
+
+View function documentation by clicking `Shift Tab` while hovering over the function
+
